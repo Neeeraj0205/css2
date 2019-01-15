@@ -1,0 +1,207 @@
+*{
+    background-color: darkgray;
+}
+@keyframes slide{
+    10%{
+        color: deeppink;
+    }
+    50%{
+        color: blueviolet;
+    }
+    100%{
+        color: darkmagenta;
+    }
+}
+#span0{
+    display: block;
+    margin: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#span1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: 30px;
+
+}
+#span2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: dodgerblue;
+    margin: 30px;
+}
+@keyframes forspan{
+    10%{
+        color: aquamarine;
+    }
+    50%{
+        color: aqua;
+    }
+    100%{
+        color: darkturquoise;
+    }
+
+}
+#span1:hover ~ #span2{
+    animation-name: forspan;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+#span3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: 30px;
+
+}
+#span4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: dodgerblue;
+    margin: 30px;
+}
+#span3:hover ~ #span4{
+    animation-name: forspan;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+#span5{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: 30px;
+
+}
+#table1{
+    
+    margin: 30px;
+    font-size: 20px;
+    color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#span5:hover ~ #table1{
+    animation-name: forspan;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+#span6{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: 30px;
+
+
+}
+#span7{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: dodgerblue;
+    margin: 30px;
+}
+#span6:hover ~ #span7{
+    animation-name: forspan;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+#span8{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: 30px;
+
+}
+#img1{
+    margin:30px;
+    width: 200px;
+    height: 200px;
+    
+}
+@keyframes forimg{
+    10%{
+        width="50px";
+        height="50px";
+    }
+    50%{
+        width="100px";
+        height="100px";
+    }
+    100%{
+        width="200px";
+        height="200px";
+    }
+
+}
+#span8:hover ~ #img1{
+    animation-name: forimg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+#span9{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: 30px;
+}
+#a1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: dodgerblue;
+    margin: 30px;
+}
+#span9:hover ~ #a1{
+    animation-name: forspan;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#span10{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: 30px;
+
+}
+#span11{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: dodgerblue;
+    margin: 30px;
+
+}
+#span12{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: dodgerblue;
+    margin: 30px;
+
+}
+#span10:hover ~ span{
+    animation-name: forspan;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
